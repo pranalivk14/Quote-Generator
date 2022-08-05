@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lobster+Two&display=swap');
+
+body {
+    margin: 0;
+    min-height: 90vh;
+    background-color: #ffffff;
+    background-image: url("https://images.unsplash.com/photo-1658784566751-95382f065d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(3, 12, 14);  
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}   
+
+.quote-container{
+    width:auto;
+    max-width: 900px;
+    background-color: rgb(255, 255, 255, 0.6) ;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px ;
+}
+
+.quote-text{
+    font-size:2.5rem ;
+    font-weight: 700;
+
+}
+
+.quote-text-long{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.quote-author{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.button-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedia-button{
+    display: flex;        
+    justify-content: space-between;        
+}
+    
+
+.btn {
+    padding: 0.5rem 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+}
+
+
+
+.btn:hover{
+    transform: scale(1.3);
+
+}
+
+
+.new-quote-btn{
+    background-color:rgb(3, 12, 14);
+    border: none;
+    padding: 8px 12px 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor:pointer;
+
+}
+    
+
+.new-quote-btn:hover {
+    transform: scale(1.1);
+}
+
+.loader {
+    border: 16px solid rgba(211, 211, 211, 0.438); 
+    border-top: 16px solid black ;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
